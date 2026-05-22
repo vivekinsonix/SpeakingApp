@@ -201,7 +201,7 @@ export default function App() {
   // ─── ONBOARDING ───
   if(phase <= P.GOAL) {
     return (
-      <div style={{fontFamily:"'Noto Sans',sans-serif",height:"100%", width:'100%', maxWidth: '380px', margin: '0 auto',  minHeight:"100dvh",background:`linear-gradient(160deg,${C.headerDark},${C.headerMid})`,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",padding:20,color:"#fff"}}>
+      <div style={{fontFamily:"'Noto Sans',sans-serif",height:"100%", width:'100%', maxWidth: '430px', margin: '0 auto',  minHeight:"100dvh",background:`linear-gradient(160deg,${C.headerDark},${C.headerMid})`,display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",padding:20,color:"#fff"}}>
         <style>{css}</style>
         <div style={{width:"100%",maxWidth:380,animation:"slideUp .5s ease-out"}}>
           <div style={{textAlign:"center",marginBottom:32}}>
@@ -255,7 +255,7 @@ export default function App() {
   // ─── SUBSCRIPTION GATE ───
   if(phase === P.SUB_GATE) {
     return (
-      <div style={{fontFamily:"'Noto Sans',sans-serif",height:"100%",minHeight:"100dvh", width:'100%', maxWidth: '380px', margin: '0 auto', background:C.bg,display:"flex",flexDirection:"column"}}>
+      <div style={{fontFamily:"'Noto Sans',sans-serif",height:"100%",minHeight:"100dvh", width:'100%', maxWidth: '430px', margin: '0 auto', background:C.bg,display:"flex",flexDirection:"column"}}>
         <style>{css}</style>
         {/* Header */}
         <div style={{background:C.headerDark,color:"#fff",padding:"10px 12px",display:"flex",alignItems:"center",gap:10,flexShrink:0}}>
@@ -332,7 +332,7 @@ export default function App() {
 
   // ─── MAIN CHAT ───
   return (
-    <div style={{fontFamily:"'Noto Sans',sans-serif",height:"100%", width:'100%', maxWidth: '380px', margin: '0 auto',   minHeight:"100dvh",display:"flex",flexDirection:"column",background:C.bg,position:"relative",overflow:"hidden"}}>
+    <div style={{fontFamily:"'Noto Sans',sans-serif",height:"100%", width:'100%', maxWidth: '430px', margin: '0 auto',   minHeight:"100dvh",display:"flex",flexDirection:"column",background:C.bg,position:"relative",overflow:"hidden"}}>
       <style>{css}</style>
 
       {confetti && <div style={{position:"absolute",inset:0,pointerEvents:"none",zIndex:100}}>
